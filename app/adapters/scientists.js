@@ -1,8 +1,6 @@
 import DS from 'ember-data';
 
 export default DS.JSONAPIAdapter.extend({
-  //  queryRecord(store,type,query){
-        //return 
-   // }
-    
+    host: 'http://localhost:7778',
+    //namespace: 'api/v1'
 });
